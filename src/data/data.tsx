@@ -266,17 +266,33 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'May 2024',
+    location: 'University of Chieti and Pescara, Italy',
+    title: 'PhD in Accounting, Management, and Business Economics',
+    content: <p>During my PhD, I focused on the economic determinants of crime reporting, with a specific emphasis on issues of impunity and public policy. 
+      I developed strong skills in econometric analysis, using fixed and random effect regression models to study the factors influencing the reporting of sexual violence. 
+      My research also involved collaboration with international institutions, expanding my understanding of both economic theory and its real-world applications in criminal behavior and prevention.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'December 2019',
+    location: 'University of Chieti and Pescara, Italy',
+    title: 'Master’s Degree in Economics and Business Management',
+    content: (
+      <p>
+        I specialized in advanced financial analysis, business strategy, and public policy during my Master's degree. My thesis focused on the economic impact of regulatory frameworks on small businesses, which allowed me to deepen my understanding of the intersection between economics and law. Throughout my studies, I developed a strong proficiency in data analysis and econometrics.
+      </p>
+    ),
   },
+  {
+    date: 'March 2016',
+    location: 'University of Chieti and Pescara, Italy',
+    title: 'Bachelor’s Degree in Business Administration',
+    content: (
+      <p>
+        My undergraduate degree provided a comprehensive foundation in business management, accounting, and microeconomics. I gained valuable insights into organizational structures, financial accounting, and market dynamics. This laid the groundwork for my later specialization in economic policies and criminal behavior analysis.
+      </p>
+    ),
+  },  
 ];
 
 export const experience: TimelineItem[] = [
