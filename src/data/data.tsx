@@ -327,8 +327,8 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: 'John Doe',
-      text: 'Collaborare con me significa lavorare con un professionista appassionato di dati e innovazione, sempre pronto a trovare soluzioni creative e a trasformare le sfide in opportunità. 
-        Il mio approccio è basato su trasparenza, rispetto delle scadenze e attenzione ai dettagli. Ecco cosa dicono di me colleghi e clienti soddisfatti.',
+      text: 'Collaborare con me significa lavorare con un professionista appassionato di dati e innovazione, sempre pronto a trovare soluzioni creative e a trasformare le sfide in opportunità. ' +
+'Il mio approccio è basato su trasparenza, rispetto delle scadenze e attenzione ai dettagli. Ecco cosa dicono di me colleghi e clienti soddisfatti.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
   ],
