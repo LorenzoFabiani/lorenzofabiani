@@ -297,28 +297,27 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'October 2017 - June 2018',
+    location: 'Walter Tosto S.p.A., Chieti-Pescara, Italy',
+    title: 'Junior Controller',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        As a Junior Controller, I was responsible for cost control across cost centers, implementing a new ERP system, preparing industrial financial statements, and supporting financial reporting. This experience allowed me to hone my skills in financial analysis and cost management in a dynamic industrial setting.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: '2011 - 2019',
+    location: 'Ristorante Parco del Rio Sparto, Canistro (AQ), Italy',
+    title: 'Family Business in Restaurant',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        While pursuing my university studies, I worked in my family’s restaurant. This experience helped me develop strong interpersonal, multitasking, and time management skills. I learned how to handle customer relations, manage workloads under pressure, and balance my academic commitments with work responsibilities.
       </p>
     ),
   },
 ];
+
 
 /**
  * Testimonial section
@@ -350,27 +349,27 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Feel free to reach out for collaborations, research opportunities, or any inquiries regarding my work on economic policies and crime reporting. I\'m always open to discussing new ideas and potential partnerships. You can contact me via email or connect with me on social media.',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'lorenzo.fabiani@unich.it',
+      href: 'mailto:lorenzo.fabiani@unich.it',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Canistro AQ, Italy',
+      href: 'https://www.google.com/maps/place/67050+Canistro+AQ,+Italia/@41.9410151,13.3983588,17z',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@lorenzo_s_got_talent',
+      href: 'https://www.instagram.com/lorenzo_s_got_talent/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'FabianiLo',
+      href: 'https://github.com/',
     },
   ],
 };
