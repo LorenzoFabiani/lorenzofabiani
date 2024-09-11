@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Lorenzo Fabiani',
+  description: "Lorenzo's resume and projects",
 };
 
 /**
@@ -73,14 +73,12 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        Researcher specialized in economic policies, microeconomics, and the intersections between economics and law. 
+        Currently focused on analysing the economic determinants of crime reporting and the effectiveness of prevention policies.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me playing beach volley in <strong className="text-stone-100">Valencia</strong>,
+        or exploring beautiful Places
       </p>
     </>
   ),
@@ -104,16 +102,16 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I'm a researcher focused on the economic determinants of crime reporting, with a special interest in public policy and impunity. 
+  My work combines economics and law to analyze how policies and economic conditions affect the likelihood of reporting crimes, particularly sexual violence. 
+Outside of research, I enjoy exploring technology and playing beach volleyball.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Canistro, AQ', Icon: MapIcon},
+    {label: 'Age', text: '34', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Italian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Motorcycles, Technologies, Traveling', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Chieti and Pescara, Italy', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'University of Chieti and Pescara, Italy', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -125,16 +123,16 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
+        name: 'Italian',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'English',
+        level: 8,
       },
       {
         name: 'Spanish',
-        level: 3,
+        level: 7,
       },
     ],
   },
