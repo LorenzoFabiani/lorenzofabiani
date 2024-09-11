@@ -25,7 +25,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
-import profilepic from '../images/profilepic.jpg';
+import profilepic from '../images/foto ps.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -101,7 +101,7 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  profileImageSrc: profilepic,
+  profileImageSrc: foto ps,
   description: `I'm a researcher focused on the economic determinants of crime reporting, with a special interest in public policy and impunity. 
   My work combines economics and law to analyze how policies and economic conditions affect the likelihood of reporting crimes, particularly sexual violence. 
 Outside of research, I enjoy exploring technology and playing beach volleyball.`,
