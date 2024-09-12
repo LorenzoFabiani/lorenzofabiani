@@ -125,62 +125,62 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'English',
-        level: 8,
+        level: 7,
       },
       {
         name: 'Spanish',
-        level: 7,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
-      {
-        name: 'Typescript',
-        level: 7,
-      },
-      {
-        name: 'GraphQL',
         level: 6,
       },
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Data Analysis',
     skills: [
       {
-        name: 'Node.js',
+        name: 'Excel',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Stata',
+        level: 6,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'R',
+        level: 5,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Data Visualization',
     skills: [
       {
-        name: 'React Native',
-        level: 9,
+        name: 'Canva',
+        level: 7,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Tableau',
+        level: 6,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'QGis',
+        level: 5,
+      },
+    ],
+  },
+  {
+    name: 'General Tools',
+    skills: [
+      {
+        name: 'Google G Suite',
+        level: 7,
+      },
+      {
+        name: 'SQL',
+        level: 6,
+      },
+      {
+        name: 'GeoDa',
+        level: 5,
       },
     ],
   },
