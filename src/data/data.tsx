@@ -87,6 +87,12 @@ export const heroData: Hero = {
       Icon: ArrowDownTrayIcon,
     },
     {
+      href: '/CV researcher.pdf',
+      text: 'Academic Resume',
+      primary: true,
+      Icon: ArrowDownTrayIcon,
+    },
+    {
       href: `#${SectionId.Contact}`,
       text: 'Contact',
       primary: false,
