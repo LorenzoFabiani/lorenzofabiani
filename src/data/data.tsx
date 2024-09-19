@@ -324,7 +324,7 @@ export const testimonial: TestimonialSection = {
   testimonials: [
     {
       name: 'John Doe',
-      text: 'Work in Progress',
+      text: 'Here, we are instructed to compete and jostle for position, to systematically surpass others in order to achieve predetermined objectives. Lorenzo'/s greatest quality is certainly his innate ability to bring people together, fostering collaboration that transcends individual limitations. Both professionally and personally, he is among the very few individuals worth surrounding oneself with.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
   ],
