@@ -23,7 +23,6 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import profilepic from '../images/profilepic2.png';
-import Project1 from './pages/Project1';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
@@ -200,7 +199,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Impunity',
     description: 'Give a short description of your project here.',
-    url: 'Project1',
+    url: 'https://reactresume.com',
     image: porfolioImage1,
   },
   {
