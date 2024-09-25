@@ -293,6 +293,16 @@ export const education: TimelineItem[] = [
 ];
 
 export const experience: TimelineItem[] = [
+    {
+    date: 'November 2020 - In Progress',
+    location: 'Online',
+    title: 'Freelancer Tutor',
+    content: (
+      <p>
+        Provided private online tutoring in Microeconomics, Business Economics, and Economic Policy to university students. This role enhanced my ability to convey complex economic concepts effectively and to tailor my teaching methods to the individual needs of students.
+      </p>
+    ),
+  },
   {
     date: 'October 2017 - June 2018',
     location: 'Walter Tosto S.p.A., Chieti-Pescara, Italy',
