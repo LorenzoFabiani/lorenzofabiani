@@ -197,7 +197,7 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
+    title: 'Impunity',
     description: 'Give a short description of your project here.',
     url: 'Project1',
     image: porfolioImage1,
