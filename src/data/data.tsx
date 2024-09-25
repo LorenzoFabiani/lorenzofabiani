@@ -299,7 +299,7 @@ export const experience: TimelineItem[] = [
     title: 'Freelancer Tutor',
     content: (
       <p>
-        Provided private online tutoring in Microeconomics, Business Economics, and Economic Policy to university students. This role enhanced my ability to convey complex economic concepts effectively and to tailor my teaching methods to the individual needs of students.
+        Provided private online tutoring in Microeconomics, Business Economics, and Economic Policy to university and high school students. 
       </p>
     ),
   },
