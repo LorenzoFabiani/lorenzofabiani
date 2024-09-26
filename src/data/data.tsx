@@ -12,7 +12,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/Impunity Index.jpg';
+import ImpunityIndex from '../images/portfolio/Impunity Index.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
@@ -196,7 +196,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'The Role of Impunity: Proposal for a Composite Index',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
-    image: Impunity Index,
+    image: ImpunityIndex,
   },
   {
     title: 'An Analysis of the Relationship Between Foreign Direct Investments and Impunity',
