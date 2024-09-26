@@ -5,8 +5,8 @@ import Page from '../components/Layout/Page';
 
 const ImpunityIndexPageMeta = {
   title: 'The Role of Impunity: Proposal for a Composite Index',
-  description: 'Authors: Mario Eboli and Lorenzo Fabiani
-Presented at 14th Annual Conference Spanish Association of Law and Economics – AEDE, Barcelona, June 27-28, 2024.',
+  description: `Authors: Mario Eboli and Lorenzo Fabiani
+Presented at the 14th Annual Conference Spanish Association of Law and Economics – AEDE, Barcelona, June 27-28, 2024.`,
 };
 
 // eslint-disable-next-line react-memo/require-memo
