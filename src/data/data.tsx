@@ -103,11 +103,11 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: (
      <p style={{ textAlign: 'justify' }}>
-    `I'm a researcher focused on the economic determinants of crime reporting, with a special interest in public policy and impunity. 
-  My work combines economics and law to analyze how policies and economic conditions affect the likelihood of reporting crimes, particularly sexual violence. 
-Outside of research, I enjoy exploring technology and playing beach volleyball.`,
-       </p>
-    ),
+      I'm a researcher focused on the economic determinants of crime reporting, with a special interest in public policy and impunity. 
+      My work combines economics and law to analyze how policies and economic conditions affect the likelihood of reporting crimes, particularly sexual violence. 
+      Outside of research, I enjoy exploring technology and playing beach volleyball.
+    </p>
+  ),
   aboutItems: [
     {label: 'Location', text: 'Valencia, Spain', Icon: MapIcon},
     {label: 'Age', text: '34', Icon: CalendarIcon},
