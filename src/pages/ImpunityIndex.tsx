@@ -1,5 +1,5 @@
 import dynamic from 'next/dynamic';
-import {FC, memo} from 'react';
+import { FC, memo } from 'react';
 
 import Page from '../components/Layout/Page';
 import About from '../components/Sections/About';
@@ -10,22 +10,24 @@ import Portfolio from '../components/Sections/Portfolio';
 import Resume from '../components/Sections/Resume';
 import Testimonials from '../components/Sections/Testimonials';
 
+// Meta dati per la pagina Impunity Index
 const ImpunityIndexPageMeta = {
   title: 'The Role of Impunity: Proposal for a Composite Index',
   description: 'This paper introduces a composite index for impunity, measuring regional disparities in Italy and its impact on socio-economic factors.',
 };
 
 // eslint-disable-next-line react-memo/require-memo
-const Header = dynamic(() => import('../components/Sections/Header'), {ssr: false});
+const Header = dynamic(() => import('../components/Sections/Header'), { ssr: false });
 
-const Home: FC = memo(() => {
-  const {title, description} = ImpunityIndexPageMeta;
+// Componente rinominato in ImpunityIndex
+const ImpunityIndex: FC = memo(() => {
+  const { title, description } = ImpunityIndexPageMeta;
   return (
     <Page description={description} title={title}>
       <Header />
       <Hero />
-      
- {/* Sezione personalizzata per l'abstract */}
+
+      {/* Sezione personalizzata per l'abstract */}
       <section style={{ padding: '20px' }}>
         <h1>{title}</h1>
         <p>{description}</p>
@@ -37,9 +39,9 @@ const Home: FC = memo(() => {
           stronger legal frameworks and targeted policies to reduce regional disparities and promote
           socio-economic stability.
         </p>
+      </section>
 
-        {/* Sezioni aggiuntive che vuoi mantenere */}
-      </section>      
+      {/* Sezioni aggiuntive */}
       <About />
       <Resume />
       <Portfolio />
@@ -50,4 +52,5 @@ const Home: FC = memo(() => {
   );
 });
 
-export default Home;
+// Esporta il componente ImpunityIndex
+export default ImpunityIndex;
