@@ -15,7 +15,7 @@ import heroImage from '../images/header-background.webp';
 import ImpunityIndex from '../images/portfolio/Impunity Index.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
+import EUFundsGDP from '../images/portfolio/EUFundsGDP.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import profilepic from '../images/profilepic2.png';
@@ -214,7 +214,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'The Impact of EU Funds on Regional Per Capita GDP in Italy: An Econometric Analysis',
     description: 'Lorenzo Fabiani, Andrea Toto',
     url: 'https://reactresume.com',
-    image: porfolioImage4,
+    image: EUFundsGDP,
   },
   {
     title: 'Regional Disparities and Economic Convergence in Italy: A Theoretical and Empirical Perspective',
