@@ -13,7 +13,7 @@ const ImpunityIndexPageMeta = {
 const Header = dynamic(() => import('../components/Sections/Header'), {ssr: false});  // Rimosso lo spazio tra le parentesi graffe
 
 // Componente rinominato in ImpunityIndex
-const ImpunityIndex: FC = memo(() => {
+const FDI: FC = memo(() => {
   const {title, description} = ImpunityIndexPageMeta;  // Rimosso lo spazio tra le parentesi graffe
 
   return (
