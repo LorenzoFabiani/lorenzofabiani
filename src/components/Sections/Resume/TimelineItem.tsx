@@ -14,7 +14,9 @@ const TimelineItem: FC<{item: TimelineItem}> = memo(({item}) => {
           <span className="flex-1 text-sm sm:flex-none">{date}</span>
         </div>
       </div>
-      {content}
+      <p style={{textAlign: 'justify'}}>
+        {content}
+      </p>
     </div>
   );
 });
