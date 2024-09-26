@@ -19,7 +19,6 @@ const ImpunityIndex: FC = memo(() => {
   return (
     <Page description={description} title={title}>
       <Header />
-      <Hero />
 
       {/* Sezione personalizzata per l'abstract */}
       <section style={{padding: '20px'}}>
