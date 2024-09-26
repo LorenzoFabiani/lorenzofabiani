@@ -27,7 +27,7 @@ const ImpunityIndex: FC = memo(() => {
         padding: '20px',
       }}>
         <div style={{maxWidth: '800px'}}> 
-          <h1 style={{textAlign: 'center'}}>{title}</h1> 
+          <h1 style={{textAlign: 'center', marginBottom: '20px'}}>{title}</h1> 
           <p>{description}</p>
           <p>
             <strong>Abstract:</strong> This paper introduces a composite index for impunity,
