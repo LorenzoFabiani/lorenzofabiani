@@ -105,7 +105,7 @@ export const aboutData: About = {
   My work combines economics and law to analyze how policies and economic conditions affect the likelihood of reporting crimes, particularly sexual violence. 
 Outside of research, I enjoy exploring technology and playing beach volleyball.`,
   aboutItems: [
-    {label: 'Location', text: 'Canistro, AQ', Icon: MapIcon},
+    {label: 'Location', text: 'Valencia, Spain', Icon: MapIcon},
     {label: 'Age', text: '34', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Italian', Icon: FlagIcon},
     {label: 'Interests', text: 'Motorcycles, Technologies, Traveling', Icon: SparklesIcon},
