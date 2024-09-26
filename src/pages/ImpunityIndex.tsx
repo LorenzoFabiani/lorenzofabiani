@@ -10,6 +10,11 @@ import Portfolio from '../components/Sections/Portfolio';
 import Resume from '../components/Sections/Resume';
 import Testimonials from '../components/Sections/Testimonials';
 
+const ImpunityIndexPageMeta = {
+  title: 'The Role of Impunity: Proposal for a Composite Index',
+  description: 'This paper introduces a composite index for impunity, measuring regional disparities in Italy and its impact on socio-economic factors.',
+};
+
 // eslint-disable-next-line react-memo/require-memo
 const Header = dynamic(() => import('../components/Sections/Header'), {ssr: false});
 
