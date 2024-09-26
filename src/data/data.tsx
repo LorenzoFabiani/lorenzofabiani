@@ -8,11 +8,11 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
-import EUFundsGDP from '../images/portfolio/EUFundsGDP.jpg';
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
+import EUFundsGDP from '../images/portfolio/EUFundsGDP.jpg';
 import ImpunityIndex from '../images/portfolio/ImpunityIndex.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
