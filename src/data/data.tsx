@@ -2,10 +2,8 @@ import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
   BuildingOffice2Icon,
-  CalendarIcon,
   FlagIcon,
   MapIcon,
-  SparklesIcon,
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
@@ -106,9 +104,7 @@ export const aboutData: About = {
   Outside of research, I enjoy exploring technology and playing beach volleyball.`,
   aboutItems: [
     {label: 'Location', text: 'Valencia, Spain', Icon: MapIcon},
-    {label: 'Age', text: '34', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Italian', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Technologies, Traveling', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Chieti and Pescara, Italy', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'University of Chieti and Pescara, Italy', Icon: BuildingOffice2Icon},
   ],
