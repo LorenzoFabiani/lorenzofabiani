@@ -35,13 +35,6 @@ const ImpunityIndex: FC = memo(() => {
         </p>
       </section>
 
-      {/* Sezioni aggiuntive */}
-      <About />
-      <Resume />
-      <Portfolio />
-      <Testimonials />
-      <Contact />
-      <Footer />
     </Page>
   );
 });
