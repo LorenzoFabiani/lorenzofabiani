@@ -201,7 +201,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'An Analysis of the Relationship Between Foreign Direct Investments and Impunity',
     description: 'Lorenzo Fabiani, Mario Eboli',
-    url: 'https://reactresume.com',
+    url: '/FDI',
     image: FDI,
   },
   {
