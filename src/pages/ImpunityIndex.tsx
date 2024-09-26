@@ -1,5 +1,5 @@
 import dynamic from 'next/dynamic';
-import { FC, memo } from 'react';
+import {FC, memo} from 'react';  // Rimosso lo spazio tra le parentesi graffe
 
 import Page from '../components/Layout/Page';
 import About from '../components/Sections/About';
@@ -17,11 +17,12 @@ const ImpunityIndexPageMeta = {
 };
 
 // eslint-disable-next-line react-memo/require-memo
-const Header = dynamic(() => import('../components/Sections/Header'), { ssr: false });
+const Header = dynamic(() => import('../components/Sections/Header'), {ssr: false});  // Rimosso lo spazio tra le parentesi graffe
 
 // Componente rinominato in ImpunityIndex
 const ImpunityIndex: FC = memo(() => {
-  const { title, description } = ImpunityIndexPageMeta;
+  const {title, description} = ImpunityIndexPageMeta;  // Rimosso lo spazio tra le parentesi graffe
+
   return (
     <Page description={description} title={title}>
       <Header />
