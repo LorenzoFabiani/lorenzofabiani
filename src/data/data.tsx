@@ -194,37 +194,37 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'The Role of Impunity: Proposal for a Composite Index',
-    description: 'Give a short description of your project here.',
+    description: 'Mario Eboli, Lorenzo Fabiani',
     url: 'https://reactresume.com',
     image: ImpunityIndex,
   },
   {
     title: 'An Analysis of the Relationship Between Foreign Direct Investments and Impunity',
-    description: 'Give a short description of your project here.',
+    description: 'Lorenzo Fabiani, Mario Eboli',
     url: 'https://reactresume.com',
     image: porfolioImage2,
   },
   {
     title: 'Empowering Local Governance for Creating Public Value: A Preliminary Analysis',
-    description: 'Give a short description of your project here.',
+    description: 'Lorenzo Fabiani, Simone Cifolelli',
     url: 'https://reactresume.com',
     image: porfolioImage3,
   },
   {
     title: 'The Impact of EU Funds on Regional Per Capita GDP in Italy: An Econometric Analysis',
-    description: 'Give a short description of your project here.',
+    description: 'Lorenzo Fabiani, Andrea Toto',
     url: 'https://reactresume.com',
     image: porfolioImage4,
   },
   {
     title: 'Regional Disparities and Economic Convergence in Italy: A Theoretical and Empirical Perspective',
-    description: 'Give a short description of your project here.',
+    description: 'Lorenzo Fabiani, Andrea Toto',
     url: 'https://reactresume.com',
     image: porfolioImage5,
   },
   {
     title: 'Heterogeneity of sexual crimes reporting in Italian provinces and the effect of the Impunity',
-    description: 'Give a short description of your project here.',
+    description: 'Lorenzo Fabiani, Mario Eboli',
     url: 'https://reactresume.com',
     image: porfolioImage6,
   },
