@@ -24,6 +24,19 @@ const Home: FC = memo(() => {
     <Page description={description} title={title}>
       <Header />
       <Hero />
+ {/* Sezione personalizzata per l'abstract */}
+      <section style={{ padding: '20px' }}>
+        <h1>{title}</h1>
+        <p>{description}</p>
+        <p>
+          <strong>Abstract:</strong> This paper introduces a composite index for impunity,
+          which aims to measure regional disparities in Italy from 2008 to 2021. The index highlights
+          the significant socio-economic impacts of impunity, especially on foreign direct investments
+          and crime reporting. Through an econometric analysis, the findings emphasize the need for
+          stronger legal frameworks and targeted policies to reduce regional disparities and promote
+          socio-economic stability.
+        </p>
+      </section>      
       <About />
       <Resume />
       <Portfolio />
