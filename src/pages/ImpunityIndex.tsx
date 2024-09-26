@@ -28,8 +28,8 @@ const ImpunityIndex: FC = memo(() => {
       }}>
         <div style={{maxWidth: '800px'}}> 
           <h1 style={{textAlign: 'center', marginBottom: '20px'}}>{title}</h1> 
-          <p style={{ marginBottom: '20px' }}>{description}</p>
-            <p style={{ marginBottom: '20px' }}>
+          <p style={{marginBottom: '20px'}}>{description}</p>
+            <p style={{marginBottom: '20px'}}>
             <strong>Abstract:</strong> This paper introduces a composite index for impunity,
             which aims to measure regional disparities in Italy from 2008 to 2021. The index highlights
             the significant socio-economic impacts of impunity, especially on foreign direct investments
