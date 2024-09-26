@@ -195,7 +195,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'The Role of Impunity: Proposal for a Composite Index',
     description: 'Mario Eboli, Lorenzo Fabiani',
-    url: 'https://reactresume.com',
+    url: '/ImpunityIndex',
     image: ImpunityIndex,
   },
   {
