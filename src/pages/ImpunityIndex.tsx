@@ -1,36 +1,33 @@
 import dynamic from 'next/dynamic';
-import {FC, memo} from 'react';  // Rimosso lo spazio tra le parentesi graffe
+import {FC, memo} from 'react';  
 
 import Page from '../components/Layout/Page';
 
-// Meta dati per la pagina Impunity Index
 const ImpunityIndexPageMeta = {
   title: 'The Role of Impunity: Proposal for a Composite Index',
   description: 'This paper introduces a composite index for impunity, measuring regional disparities in Italy and its impact on socio-economic factors.',
 };
 
 // eslint-disable-next-line react-memo/require-memo
-const Header = dynamic(() => import('../components/Sections/Header'), {ssr: false});  // Rimosso lo spazio tra le parentesi graffe
+const Header = dynamic(() => import('../components/Sections/Header'), {ssr: false});  
 
-// Componente rinominato in ImpunityIndex
 const ImpunityIndex: FC = memo(() => {
-  const {title, description} = ImpunityIndexPageMeta;  // Rimosso lo spazio tra le parentesi graffe
+  const {title, description} = ImpunityIndexPageMeta;  
 
   return (
     <Page description={description} title={title}>
       <Header />
-      {/* Sezione personalizzata per l'abstract */}
       <section style={{
         display: 'flex', 
         flexDirection: 'column', 
         justifyContent: 'center', 
         alignItems: 'center', 
-        height: '100vh',  // Imposta l'altezza della sezione per centrare verticalmente
+        height: '100vh',  
         textAlign: 'justify', 
         padding: '20px',
       }}>
-        <div style={{maxWidth: '800px'}}> {/* Limita la larghezza del contenuto per una lettura migliore */}
-          <h1 style={{textAlign: 'center'}}>{title}</h1> {/* Titolo centrato */}
+        <div style={{maxWidth: '800px'}}> 
+          <h1 style={{textAlign: 'center'}}>{title}</h1> 
           <p>{description}</p>
           <p>
             <strong>Abstract:</strong> This paper introduces a composite index for impunity,
