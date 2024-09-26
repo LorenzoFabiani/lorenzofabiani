@@ -10,4 +10,5 @@ const ImpunityIndex = () => {
   );
 };
 
-export default ImpunityIndex;
+// Aggiungi React.memo qui
+export default React.memo(ImpunityIndex);
