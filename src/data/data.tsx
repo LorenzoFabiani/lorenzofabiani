@@ -13,9 +13,9 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
 import EUFundsGDP from '../images/portfolio/EUFundsGDP.jpg';
+import FDI from '../images/portfolio/FDI.jpg';
+import LocalG from '../images/portfolio/LocalG.jpg';
 import ImpunityIndex from '../images/portfolio/ImpunityIndex.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import profilepic from '../images/profilepic2.png';
@@ -202,13 +202,13 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'An Analysis of the Relationship Between Foreign Direct Investments and Impunity',
     description: 'Lorenzo Fabiani, Mario Eboli',
     url: 'https://reactresume.com',
-    image: porfolioImage2,
+    image: FDI,
   },
   {
     title: 'Empowering Local Governance for Creating Public Value: A Preliminary Analysis',
     description: 'Lorenzo Fabiani, Simone Cifolelli',
     url: 'https://reactresume.com',
-    image: porfolioImage3,
+    image: LocalG,
   },
   {
     title: 'The Impact of EU Funds on Regional Per Capita GDP in Italy: An Econometric Analysis',
