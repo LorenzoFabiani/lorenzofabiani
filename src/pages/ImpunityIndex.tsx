@@ -24,6 +24,7 @@ const Home: FC = memo(() => {
     <Page description={description} title={title}>
       <Header />
       <Hero />
+      
  {/* Sezione personalizzata per l'abstract */}
       <section style={{ padding: '20px' }}>
         <h1>{title}</h1>
@@ -36,6 +37,8 @@ const Home: FC = memo(() => {
           stronger legal frameworks and targeted policies to reduce regional disparities and promote
           socio-economic stability.
         </p>
+
+        {/* Sezioni aggiuntive che vuoi mantenere */}
       </section>      
       <About />
       <Resume />
