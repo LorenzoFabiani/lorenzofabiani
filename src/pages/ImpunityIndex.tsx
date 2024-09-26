@@ -30,12 +30,7 @@ const ImpunityIndex: FC = memo(() => {
           <h1 style={{textAlign: 'center', marginBottom: '20px', color: 'white'}}>{title}</h1> 
           <p style={{marginBottom: '20px', color: 'white'}}>{description}</p>
             <p style={{marginBottom: '20px', color: 'white'}}>
-            <strong>Abstract:</strong> This paper introduces a composite index for impunity,
-            which aims to measure regional disparities in Italy from 2008 to 2021. The index highlights
-            the significant socio-economic impacts of impunity, especially on foreign direct investments
-            and crime reporting. Through an econometric analysis, the findings emphasize the need for
-            stronger legal frameworks and targeted policies to reduce regional disparities and promote
-            socio-economic stability.
+            <strong>Abstract:</strong> This study introduces a pioneering methodology to quantify impunity at a provincial level within Italy, focusing on the period from 2008 to 2021. By aggregating various indicators, we present the "Impunity Index" that offers insights into regional variations and trends in impunity dynamics. A novel aspect of our approach is the emphasis on economic dimensions, augmenting the traditionally criminal-centric view of impunity. Utilizing techniques like the Analytic Hierarchy Process (AHP) for variable weighting and the Compounded Average Growth Rate (CAGR) for temporal analysis, our study reveals significant regional disparities in impunity levels. Geographical analyses further underscore a north-south gradient, with northern regions typically exhibiting lower impunity levels. This study, one of the first to investigate the issue of impunity at such a granular level, offers a novel perspective on the matter and can possibly be a foundation for further research in Italy and potentially other nations.
           </p>
         </div>
       </section>
