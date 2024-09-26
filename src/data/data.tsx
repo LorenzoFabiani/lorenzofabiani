@@ -18,10 +18,6 @@ import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import profilepic from '../images/profilepic2.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -197,64 +193,40 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Impunity',
+    title: 'The Role of Impunity: Proposal for a Composite Index',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
+    title: 'An Analysis of the Relationship Between Foreign Direct Investments and Impunity',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
+    title: 'Empowering Local Governance for Creating Public Value: A Preliminary Analysis',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
+    title: 'The Impact of EU Funds on Regional Per Capita GDP in Italy: An Econometric Analysis',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
+    title: 'Regional Disparities and Economic Convergence in Italy: A Theoretical and Empirical Perspective',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage5,
   },
   {
-    title: 'Project title 6',
+    title: 'Heterogeneity of sexual crimes reporting in Italian provinces and the effect of the Impunity',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
   },
 ];
 
