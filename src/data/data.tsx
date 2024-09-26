@@ -16,8 +16,8 @@ import EUFundsGDP from '../images/portfolio/EUFundsGDP.jpg';
 import FDI from '../images/portfolio/FDI.jpg';
 import ImpunityIndex from '../images/portfolio/ImpunityIndex.jpg';
 import LocalG from '../images/portfolio/LocalG.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+import RegionalD from '../images/portfolio/RegionalD.jpg';
+import SexR from '../images/portfolio/SexR.jpg';
 import profilepic from '../images/profilepic2.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -220,13 +220,13 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Regional Disparities and Economic Convergence in Italy: A Theoretical and Empirical Perspective',
     description: 'Lorenzo Fabiani, Andrea Toto',
     url: 'https://reactresume.com',
-    image: porfolioImage5,
+    image: RegionalD,
   },
   {
     title: 'Heterogeneity of sexual crimes reporting in Italian provinces and the effect of the Impunity',
     description: 'Lorenzo Fabiani, Mario Eboli',
     url: 'https://reactresume.com',
-    image: porfolioImage6,
+    image: SexR,
   },
 ];
 
