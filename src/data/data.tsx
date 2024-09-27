@@ -244,7 +244,7 @@ export const education: TimelineItem[] = [
     title: 'Master’s Degree in Economics and Business Management',
     content: (
       <p>
-        I specialized in advanced financial analysis, business strategy, and public policy during my Master's degree. My thesis focused on the economic impact of regulatory frameworks on small businesses, which allowed me to deepen my understanding of the intersection between economics and law. Throughout my studies, I developed a strong proficiency in data analysis and econometrics.
+        During my Master’s, I specialized in the study of European Structural Funds, focusing on their impact on regional convergence and long-term sustainability. My thesis applied neoclassical growth models to analyze productivity at the regional level, assessing the effectiveness of these funds in reducing economic disparities within the European Union.
       </p>
     ),
   },
@@ -254,7 +254,7 @@ export const education: TimelineItem[] = [
     title: 'Bachelor’s Degree in Business Administration',
     content: (
       <p>
-        My undergraduate degree provided a comprehensive foundation in business management, accounting, and microeconomics. I gained valuable insights into organizational structures, financial accounting, and market dynamics. This laid the groundwork for my later specialization in economic policies and criminal behavior analysis.
+        My undergraduate degree provided a comprehensive foundation in business management, accounting, and microeconomics. I gained valuable insights into organizational structures, financial accounting, and market dynamics. My Bachelor's thesis examined the balance between the right to report and constitutionally guaranteed personal rights, focusing on freedom of expression and individual protections such as privacy, honor, and the rights of minors. The work analyzed legal and ethical considerations, exploring how courts balance these often competing rights in modern jurisprudence.
       </p>
     ),
   },  
