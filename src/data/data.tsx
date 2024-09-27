@@ -197,31 +197,31 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'An Analysis of the Relationship Between Foreign Direct Investments and Impunity',
     description: 'Lorenzo Fabiani, Mario Eboli',
-    url: '/FDI',
+    url: '/FDIAnalysis',
     image: FDI,
   },
   {
     title: 'Empowering Local Governance for Creating Public Value: A Preliminary Analysis',
     description: 'Lorenzo Fabiani, Simone Cifolelli',
-    url: 'https://reactresume.com',
+    url: '/LocalGovernanceAnalysis',
     image: LocalG,
   },
   {
     title: 'The Impact of EU Funds on Regional Per Capita GDP in Italy: An Econometric Analysis',
     description: 'Lorenzo Fabiani, Andrea Toto',
-    url: 'https://reactresume.com',
+    url: '/EUFundsImpact',
     image: EUFundsGDP,
   },
   {
     title: 'Regional Disparities and Economic Convergence in Italy: A Theoretical and Empirical Perspective',
     description: 'Lorenzo Fabiani, Andrea Toto',
-    url: 'https://reactresume.com',
+    url: '/RegionalDisparities',
     image: RegionalD,
   },
   {
     title: 'Heterogeneity of sexual crimes reporting in Italian provinces and the effect of the Impunity',
     description: 'Lorenzo Fabiani, Mario Eboli',
-    url: 'https://reactresume.com',
+    url: '/SexualCrimeReporting',
     image: SexR,
   },
 ];
