@@ -4,9 +4,9 @@ import {FC, memo} from 'react';
 import Page from '../components/Layout/Page';
 
 const ImpunityIndexPageMeta = {
-  title: 'The Role of Impunity: Proposal for a Composite Index',
-  description: 'Authors: Mario Eboli and Lorenzo Fabiani',
-  description2: 'Presented at the 14th Annual Conference Spanish Association of Law and Economics – AEDE, Barcelona, June 27-28, 2024.',
+  title: 'Regional Disparities and Economic Convergence in Italy: A Theoretical and Empirical Perspective',
+  description: 'Authors: Lorenzo Fabiani and Andrea Toto',
+  description2: 'Presented at the 6th International Conference on Decision Economics - DECON, Salamanca, Spain (Online), June 26-28, 2024.',
 };
 
 // eslint-disable-next-line react-memo/require-memo
@@ -34,7 +34,7 @@ const ImpunityIndex: FC = memo(() => {
             <p style={{marginBottom: '20px', color: 'white'}}>{description2}</p>
           )}
           <p style={{marginBottom: '20px', color: 'white'}}>
-            <strong>Abstract:</strong> This study introduces a pioneering methodology to quantify impunity at a provincial level within Italy, focusing on the period from 2008 to 2021. By aggregating various indicators, we present the "Impunity Index" that offers insights into regional variations and trends in impunity dynamics. A novel aspect of our approach is the emphasis on economic dimensions, augmenting the traditionally criminal-centric view of impunity. Utilizing techniques like the Analytic Hierarchy Process (AHP) for variable weighting and the Compounded Average Growth Rate (CAGR) for temporal analysis, our study reveals significant regional disparities in impunity levels. Geographical analyses further underscore a north-south gradient, with northern regions typically exhibiting lower impunity levels. This study, one of the first to investigate the issue of impunity at such a granular level, offers a novel perspective on the matter and can possibly be a foundation for further research in Italy and potentially other nations.
+            <strong>Abstract:</strong> This study examines economic convergence among Italian regions from 1995 to 2022, focusing on beta and sigma convergence. Beta convergence assesses whether poorer regions grow faster than richer ones by analyzing the relationship between initial per capita GDP levels and subsequent growth rates. The results show no overall beta convergence for the entire period, as economic disparities widened. Notably, a trend toward convergence is observed from 1995 to 2008, followed by divergence from 2008 to 2022, primarily due to the eco-nomic crisis. Sigma convergence, which measures the reduction in regional dis-parities, aligns with these findings, showing a decrease in disparities before the crisis and an increase afterward. Significant regional variations are highlighted, with Basilicata experiencing growth due to a resurgence in automotive produc-tion, while regions like Umbria and Valle d'Aosta face stagnation due to struc-tural issues. These results underscore the need for targeted policies to promote economic convergence and reduce regional disparities, considering the spatial distribution of economic activities and localized dynamic externalities. The anal-ysis emphasizes the impact of the economic crisis on regional dynamics, exacer-bating pre-existing differences and hindering convergence efforts.
           </p>
         </div>
       </section>
