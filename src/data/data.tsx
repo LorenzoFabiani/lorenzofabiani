@@ -17,7 +17,7 @@ import LocalG from '../images/portfolio/LocalG.jpg';
 import RegionalD from '../images/portfolio/RegionalD.jpg';
 import SexR from '../images/portfolio/SexR.jpg';
 import profilepic from '../images/profilepic2.png';
-import testimonialImage from '../images/testimonial.webp';
+import testimonialImage from '../images/simone.jpg';
 import {
   About,
   ContactSection,
