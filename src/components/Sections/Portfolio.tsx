@@ -38,13 +38,12 @@ const Portfolio: FC = memo(() => {
 Portfolio.displayName = 'Portfolio';
 export default Portfolio;
 
-const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, description}}) => {
+const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, description, description2}}) => {
   const [mobile, setMobile] = useState(false);
   const [showOverlay, setShowOverlay] = useState(false);
   const linkRef = useRef<HTMLAnchorElement>(null);
 
   useEffect(() => {
-    // Avoid hydration styling errors by setting mobile in useEffect
     if (isMobile) {
       setMobile(true);
     }
@@ -64,18 +63,19 @@ const ItemOverlay: FC<{item: PortfolioItem}> = memo(({item: {url, title, descrip
   return (
     <a
       className={classNames(
-        'absolute inset-0 h-full w-full  bg-gray-900 transition-all duration-300',
+        'absolute inset-0 h-full w-full bg-gray-900 transition-all duration-300',
         {'opacity-0 hover:opacity-80': !mobile},
         showOverlay ? 'opacity-80' : 'opacity-0',
       )}
       href={url}
       onClick={handleItemClick}
       ref={linkRef}
-      >
+    >
       <div className="relative h-full w-full p-4">
         <div className="flex h-full w-full flex-col gap-y-2 overflow-y-auto overscroll-contain">
           <h2 className="text-center font-bold text-white opacity-100">{title}</h2>
           <p className="text-xs text-white opacity-100 sm:text-sm">{description}</p>
+          <p className="text-xs text-white opacity-100 sm:text-sm">{description2}</p> {/* Aggiungi description2 */}
         </div>
         <ArrowTopRightOnSquareIcon className="absolute bottom-1 right-1 h-4 w-4 shrink-0 text-white sm:bottom-2 sm:right-2" />
       </div>
