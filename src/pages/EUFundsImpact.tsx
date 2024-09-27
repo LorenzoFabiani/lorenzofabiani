@@ -4,9 +4,9 @@ import {FC, memo} from 'react';
 import Page from '../components/Layout/Page';
 
 const ImpunityIndexPageMeta = {
-  title: 'The Role of Impunity: Proposal for a Composite Index',
-  description: 'Authors: Mario Eboli and Lorenzo Fabiani',
-  description2: 'Presented at the 14th Annual Conference Spanish Association of Law and Economics – AEDE, Barcelona, June 27-28, 2024.',
+  title: 'The Impact of European Union Funds on Regional Per Capita GDP, An Econometric Analysis',
+  description: 'Authors: Lorenzo Fabiani and Andrea Toto',
+  description2: 'Presented at the 6th International Conference on Decision Economics - DECON, Salamanca, Spain (Online), June 26-28, 2024',
 };
 
 // eslint-disable-next-line react-memo/require-memo
@@ -34,7 +34,7 @@ const ImpunityIndex: FC = memo(() => {
             <p style={{marginBottom: '20px', color: 'white'}}>{description2}</p>
           )}
           <p style={{marginBottom: '20px', color: 'white'}}>
-            <strong>Abstract:</strong> This study introduces a pioneering methodology to quantify impunity at a provincial level within Italy, focusing on the period from 2008 to 2021. By aggregating various indicators, we present the "Impunity Index" that offers insights into regional variations and trends in impunity dynamics. A novel aspect of our approach is the emphasis on economic dimensions, augmenting the traditionally criminal-centric view of impunity. Utilizing techniques like the Analytic Hierarchy Process (AHP) for variable weighting and the Compounded Average Growth Rate (CAGR) for temporal analysis, our study reveals significant regional disparities in impunity levels. Geographical analyses further underscore a north-south gradient, with northern regions typically exhibiting lower impunity levels. This study, one of the first to investigate the issue of impunity at such a granular level, offers a novel perspective on the matter and can possibly be a foundation for further research in Italy and potentially other nations.
+            <strong>Abstract:</strong> The funding policies of the European Union (EU) are pivotal in reducing re-gional disparities and promoting balanced economic growth. Despite sub-stantial financial allocations, their effectiveness remains debated. This study examines the impact of EU funding policies on regional per capita GDP, us-ing data on GDP, EU fund allocations, education rates, and private invest-ments in agriculture, manufacturing, and services. By focusing on these sec-tors and incorporating one- and two-year lags for EU funds and investments, the study captures delayed effects on economic growth. Employing Ordinary Least Squares (OLS) regression and Instrumental Variables (IV) techniques, this research addresses potential endogeneity issues, ensuring robust esti-mates. The dataset includes NUTS2 level data from 2014 to 2021, encom-passing regional GDP per capita, private sectoral investments, education lev-els, and EU funds. The results show a negative relationship between EU funds and regional GDP per capita, suggesting that higher allocations do not necessarily lead to immediate economic growth. Conversely, investments and tertiary education positively impact GDP per capita. These findings con-tribute to the discourse on the efficacy of EU funding policies and provide valuable insights for policymakers. Optimizing fund allocation and designing targeted interventions are crucial for fostering sustainable regional growth. The study underscores the complexity of regional development and the im-portance of considering various factors influencing economic outcomes.
           </p>
         </div>
       </section>
