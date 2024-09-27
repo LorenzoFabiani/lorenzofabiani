@@ -4,8 +4,8 @@ import {FC, memo} from 'react';
 import Page from '../components/Layout/Page';
 
 const ImpunityIndexPageMeta = {
-  title: 'The Role of Impunity: Proposal for a Composite Index',
-  description: 'Authors: Mario Eboli and Lorenzo Fabiani',
+  title: 'An analysis of the relationship between Foreign Direct Investments and Impunity',
+  description: 'Authors: Lorenzo Fabiani and Mario Eboli',
   description2: 'Presented at the 14th Annual Conference Spanish Association of Law and Economics – AEDE, Barcelona, June 27-28, 2024.',
 };
 
@@ -34,7 +34,7 @@ const ImpunityIndex: FC = memo(() => {
             <p style={{marginBottom: '20px', color: 'white'}}>{description2}</p>
           )}
           <p style={{marginBottom: '20px', color: 'white'}}>
-            <strong>Abstract:</strong> This study introduces a pioneering methodology to quantify impunity at a provincial level within Italy, focusing on the period from 2008 to 2021. By aggregating various indicators, we present the "Impunity Index" that offers insights into regional variations and trends in impunity dynamics. A novel aspect of our approach is the emphasis on economic dimensions, augmenting the traditionally criminal-centric view of impunity. Utilizing techniques like the Analytic Hierarchy Process (AHP) for variable weighting and the Compounded Average Growth Rate (CAGR) for temporal analysis, our study reveals significant regional disparities in impunity levels. Geographical analyses further underscore a north-south gradient, with northern regions typically exhibiting lower impunity levels. This study, one of the first to investigate the issue of impunity at such a granular level, offers a novel perspective on the matter and can possibly be a foundation for further research in Italy and potentially other nations.
+            <strong>Abstract:</strong> This study investigates the determinants of Foreign Direct Investment (FDI) in Italy, with a particular focus on the role of local institutions and the prevalence of Impunity as a measure of the quality of legal system. Utilizing a panel dataset from 2008 to 2021 and utilizing fixed effects regression models with robust error estimation techniques, we explore the relationship between FDI and various socio-economic factors such as Impunity, GDP per capita, population size, level of exports, patents, and the business structures. The findings highlight a significant negative impact of impunity on FDI, indicating that an inefficient legal system may elevate perceived investment risks, particularly those related to property rights and dispute resolution. Conversely, factors like population size and regional orientation towards exports and innovation positively correlate with FDI. This comprehensive study underlines the critical role of legal reliability and other economic indicators in attracting FDI, offering valuable insights for policy enhancement to boost Italy's appeal as a destination for foreign investment.
           </p>
         </div>
       </section>
