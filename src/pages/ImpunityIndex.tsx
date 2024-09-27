@@ -23,7 +23,7 @@ const ImpunityIndex: FC = memo(() => {
         flexDirection: 'column', 
         justifyContent: 'center', 
         alignItems: 'center', 
-        height: '100vh',  
+        minheight: '100vh',  
         textAlign: 'justify', 
         padding: '20px',
       }}>
