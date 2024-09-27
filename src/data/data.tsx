@@ -334,7 +334,7 @@ export const contact: ContactSection = {
     {
       type: ContactType.Github,
       text: 'FabianiLo',
-      href: 'https://github.com/',
+      href: 'https://github.com/lorenzofabiani',
     },
   ],
 };
