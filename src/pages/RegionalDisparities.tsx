@@ -23,10 +23,12 @@ const ImpunityIndex: FC = memo(() => {
         flexDirection: 'column', 
         justifyContent: 'center', 
         alignItems: 'center', 
-        height: '100vh',  
+        minHeight: '100vh',  
         textAlign: 'justify', 
         padding: '20px',
-      }}>
+        overflowY: 'auto',
+        paddingTop: '10vh',
+    }}>
         <div style={{maxWidth: '800px'}}> 
           <h1 style={{textAlign: 'center', marginBottom: '20px', color: 'white'}}>{title}</h1> 
           <p style={{marginBottom: '20px', color: 'white'}}>{description}</p>
