@@ -4,9 +4,9 @@ import {FC, memo} from 'react';
 import Page from '../components/Layout/Page';
 
 const ImpunityIndexPageMeta = {
-  title: 'The Role of Impunity: Proposal for a Composite Index',
-  description: 'Authors: Mario Eboli and Lorenzo Fabiani',
-  description2: 'Presented at the 14th Annual Conference Spanish Association of Law and Economics – AEDE, Barcelona, June 27-28, 2024.',
+  title: 'Heterogeneity of sexual crimes reporting in Italian provinces and the effect of the Impunity',
+  description: 'Authors: Lorenzo Fabiani and Mario Eboli',
+  description2: 'Work in Progress...',
 };
 
 // eslint-disable-next-line react-memo/require-memo
@@ -34,7 +34,7 @@ const ImpunityIndex: FC = memo(() => {
             <p style={{marginBottom: '20px', color: 'white'}}>{description2}</p>
           )}
           <p style={{marginBottom: '20px', color: 'white'}}>
-            <strong>Abstract:</strong> This study introduces a pioneering methodology to quantify impunity at a provincial level within Italy, focusing on the period from 2008 to 2021. By aggregating various indicators, we present the "Impunity Index" that offers insights into regional variations and trends in impunity dynamics. A novel aspect of our approach is the emphasis on economic dimensions, augmenting the traditionally criminal-centric view of impunity. Utilizing techniques like the Analytic Hierarchy Process (AHP) for variable weighting and the Compounded Average Growth Rate (CAGR) for temporal analysis, our study reveals significant regional disparities in impunity levels. Geographical analyses further underscore a north-south gradient, with northern regions typically exhibiting lower impunity levels. This study, one of the first to investigate the issue of impunity at such a granular level, offers a novel perspective on the matter and can possibly be a foundation for further research in Italy and potentially other nations.
+            <strong>Abstract:</strong> The complex interplay between impunity, socioeconomic factors, and the reporting of sexual violence remains an underexplored domain. This study bridges this gap by examining the influence of perceived impunity and economic conditions on the propensity to report sexual violence across 106 Italian provinces from 2008 to 2020. Utilizing a robust panel data analysis, we delve into the nonlinear dynamics governing reporting behaviors. Our findings reveal that higher levels of perceived impunity, indicative of a less efficient judicial system, significantly deter victims from reporting sexual violence. Moreover, the study uncovers the nonlinear impact of economic conditions, such as GDP per capita and female unemployment rates, on reporting rates. These intricate relationships underscore the multifaceted nature of crime reporting, shaped by a tapestry of cultural, economic, and legal factors. The study contributes to the discourse on crime reporting by highlighting the necessity for comprehensive strategies that address not only the judicial inefficiencies but also the socioeconomic and cultural barriers to reporting. Our findings advocate for a holistic approach, where enhancing judicial efficiency is complemented by raising rights awareness and promoting equitable economic policies. This research holds implications for policymakers and law enforcement agencies, emphasizing the need to consider the submerged portion of unreported crimes and the complex factors influencing reporting behaviors. By shedding light on these dynamics, the study tiles the way for more informed policies and practices aimed at encouraging the reporting of sexual violence and, ultimately, fostering a safer and more just society. 
           </p>
         </div>
       </section>
