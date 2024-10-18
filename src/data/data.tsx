@@ -68,8 +68,7 @@ export const heroData: Hero = {
         Currently focused on analysing the economic determinants of crime reporting and the effectiveness of prevention policies.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me playing beach volley in <strong className="text-stone-100">Valencia</strong>,
-        or exploring beautiful Places
+        In my free time time, you can catch me playing beach volley in <strong className="text-stone-100">Valencia</strong>
       </p>
     </>
   ),
