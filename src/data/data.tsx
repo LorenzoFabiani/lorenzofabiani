@@ -64,8 +64,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Researcher specialized in economic policies, microeconomics, and the intersections between economics and law. 
-        Currently focused on analysing the economic determinants of crime reporting and the effectiveness of prevention policies.
+        Researcher specialized in economic policies, microeconomics, regional studies, and the intersections between economics and law. 
+Currently focused on analyzing the economic determinants of crime reporting, the effectiveness of prevention policies, and the impact of regional dynamics on economic behaviors.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me playing beach volley in <strong className="text-stone-100">Valencia</strong>
