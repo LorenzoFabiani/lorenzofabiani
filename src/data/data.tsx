@@ -64,9 +64,11 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Researcher specialized in economic policies, microeconomics, regional studies, and the intersections between economics and law. 
-Currently focused on analyzing the economic determinants of crime reporting, the effectiveness of prevention policies, and the impact of regional dynamics on economic behaviors.
-      </p>
+  I’m currently a postdoctoral research fellow at the University of Turin.  
+  I completed my PhD in Accounting, Management and Business Economics at the “G. d’Annunzio” University of Chieti-Pescara, with a dissertation titled “Economic and Social Implications of Legal Quality and Impunity.”  
+  My main research interests include institutional economics, the economic determinants of crime and justice, gender gaps in reporting, and applied causal inference.  
+  I’m also a Teaching Tutor for the course Economic Policy at IUL University of Florence.
+</p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me playing beach volley in <strong className="text-stone-100">Valencia</strong>
       </p>
@@ -98,15 +100,16 @@ Currently focused on analyzing the economic determinants of crime reporting, the
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I'm a researcher focused on the economic determinants of crime reporting, with a special interest in public policy and impunity. 
+  description: `I'm a researcher focused on the economic determinants of crime reporting, with a special interest in public policy and impunity, and the Gender GAP. 
   My work combines economics and law to analyze how policies and economic conditions affect the likelihood of reporting crimes, particularly sexual violence. 
   Outside of research, I enjoy exploring technology and playing beach volleyball.`,
   aboutItems: [
-    {label: 'Location', text: 'Valencia, Spain', Icon: MapIcon},
-    {label: 'Nationality', text: 'Italian', Icon: FlagIcon},
-    {label: 'Study', text: 'University of Chieti and Pescara, Italy', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'University of Chieti and Pescara, Italy', Icon: BuildingOffice2Icon},
-  ],
+  {label: 'Location', text: 'Valencia, Spain', Icon: MapIcon},
+  {label: 'Nationality', text: 'Italian', Icon: FlagIcon},
+  {label: 'Study', text: 'University of Chieti and Pescara, Italy', Icon: AcademicCapIcon},
+  {label: 'Research Fellow', text: 'University of Turin, Italy', Icon: BuildingOffice2Icon},
+  {label: 'Tutor', text: 'IUL University of Florence, Italy', Icon: BuildingOffice2Icon},
+],
 };
 
 /**
@@ -122,7 +125,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'English',
-        level: 7,
+        level: 8,
       },
       {
         name: 'Spanish',
@@ -139,11 +142,11 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Stata',
-        level: 6,
+        level: 7,
       },
       {
-        name: 'R',
-        level: 5,
+        name: 'Python',
+        level: 6,
       },
     ],
   },
@@ -160,7 +163,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'QGis',
-        level: 5,
+        level: 6,
       },
     ],
   },
@@ -169,7 +172,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Google G Suite',
-        level: 7,
+        level: 9,
       },
       {
         name: 'SQL',
@@ -260,7 +263,27 @@ export const education: TimelineItem[] = [
 ];
 
 export const experience: TimelineItem[] = [
-    {
+  {
+    date: 'January 2025 - In Progress',
+    location: 'Turin',
+    title: 'Postdoctoral Research Fellow – University of Turin',
+    content: (
+      <p>
+            I’m currently a postdoctoral researcher at the University of Turin, focusing on healthcare procurement processes and institutional efficiency. 
+      </p>
+    ),
+  }, 
+  {
+    date: 'February 2025 - In Progress',
+    location: 'Online',
+    title: 'Teaching Tutor – IUL University of Florence',
+    content: (
+      <p>
+        I work as a Teaching Tutor in Economic Policy at IUL University of Florence, assisting students with academic support and course-related activities. 
+      </p>
+    ),
+  },
+  {
     date: 'November 2020 - In Progress',
     location: 'Online',
     title: 'Freelancer Tutor',
@@ -317,7 +340,7 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'lorenzo.fabiani@unich.it',
+      text: 'lorenzo.fabiani@unito.it',
       href: 'mailto:lorenzo.fabiani@unich.it',
     },
     {
