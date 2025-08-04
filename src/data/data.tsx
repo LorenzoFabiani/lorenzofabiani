@@ -226,6 +226,18 @@ export const portfolioItems: PortfolioItem[] = [
     url: '/SexualCrimeReporting',
     image: SexR,
   },
+  {
+    title: 'Denouncing in the Dark: A Theoretical Model of Domestic Violence Disclosure under Welfare Ambiguity',
+    description: 'Lorenzo Fabiani',
+    url: '/DVModelDisclosure',
+    image: SexR,
+  },
+  {
+    title: 'Efficiency and Transparency in Medical Equipment Procurement: A Comparative Study',
+    description: 'Lorenzo Fabiani, University of Turin & University of Valencia',
+    url: '/MedicalProcurementStudy',
+    image: LocalG,
+  }
 ];
 
 /**
@@ -269,7 +281,7 @@ export const experience: TimelineItem[] = [
     title: 'Postdoctoral Research Fellow – University of Turin',
     content: (
       <p>
-            I’m currently a postdoctoral researcher at the University of Turin, focusing on healthcare procurement processes and institutional efficiency. 
+            I’m currently a postdoctoral researcher at the University of Turin, where I develop a Python-based document management system to support NRRP/PRIN projects. The tool aims to streamline procedures, reduce errors in compiling determinations and checklists, and ensure better compliance. I also continue research on procurement practices through surveys and internal interviews with administrative staff. 
       </p>
     ),
   }, 
